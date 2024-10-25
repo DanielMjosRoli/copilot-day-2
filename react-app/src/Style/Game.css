@@ -1,0 +1,36 @@
+.game {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 100vh;
+}
+
+.player-section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 45%;
+}
+
+.player1 {
+  position: absolute;
+  left: 0;
+}
+
+.player2 {
+  position: absolute;
+  right: 0;
+}
+
+.units {
+  position: relative;
+  height: 100px;
+}
+
+.unit {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  transition: left 1s linear;
+}
